@@ -69,5 +69,5 @@ public class Booking {
 	public void cancelBooking(User user, WaitingList waiting_list) {
 		if (waiting == true)
 			waiting_list.removeWaiting(user);
-	}
-}
+	} 
+} // overall code here is very neat however I am moved to doubt if you understand the concepts of OO to write such a code 

@@ -15,7 +15,7 @@ public class WaitingList {
 			member.add(user);
 		else
 			normal.add(user);
-	}
+	} 
 	
 	public ArrayList<User> getWaiting(String member_type) {
 		if(member_type.equals("vip"))
@@ -36,7 +36,7 @@ public class WaitingList {
 			found = normal.remove(user);
 		if(!found)
 			throw new IllegalArgumentException("User not found.");
-	}
+	} 
 	
 	
 }
