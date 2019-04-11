@@ -9,11 +9,13 @@ public class User {
 	private Boolean excl_reward;
 	private ArrayList<Booking> booking_list = new ArrayList<Booking>();
 
+	/*   //what are these constructors for? 
 	public User(String name, String member_type, boolean excl_reward) {
 		this.name = name;
 		this.member_type = member_type;
 		this.excl_reward = excl_reward;
 	}
+	*/
 	
 	public boolean getExclReward() {
 		return excl_reward;
